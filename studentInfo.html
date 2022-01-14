@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Retrieve Grade</title>
+         
+         <link rel="stylesheet" href="stud.css">
+     </head>
+     <body>
+         <h1>Retrieve your grade</h1>
+         <form action= "http://mumstudents.org/params.php" method="get">
+         <p><label for="name"> Name:</label>
+         <input type="text" size="30" maxlength="15" id="name" name="name" ></p>
+         <p><label for="id">Student ID:</label>
+         <input type="text" id="id" name="id" size="25" maxsize="7"></p>
+
+         <label>Entry: </label> <br>
+         <input type="radio" id="fall" name="entry" value="Fall">
+         <label for="fall">Fall</label><br>
+         <input type="radio" id="Spring" name="entry" value="Spring">
+         <label for="Spring">Spring</label><br>
+         <input type="radio" id="summer" name="entry" value="Summer">
+         <label for="Summer">Summer</label>
+
+         <p>
+         <div>
+           <label for="course">which course do u need</label>
+             <select name="course" id="course" >
+             <option value="fpp">FPP</option>
+             <option value="mpp">MPP</option>
+             <option value="algo">Algorithm</option>
+             <option value="asd">ASD</option>
+             <option value="waa">WAA</option>
+             <option value="wap">WAP</option></select>
+         </div>
+         </p>
+         <input type="checkbox" id="check">
+         <label for="check">Check if u abide by the rules of the school.</label>
+         <br>
+         <br>
+         <input type="submit" value="Get Grade!" id="submit">
+          <br> 
+         </form>
+     </body>
+</html>
