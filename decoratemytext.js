@@ -1,6 +1,5 @@
 
 function hello() {
-
  alert("Hello World");
 }
 function interval(){
@@ -25,39 +24,3 @@ function mynewStyle(){
 
 
     }
-function wordfind() {
-        var words = document.getElementById("textarea").value;
-        var separated = words.split(/\s+/);
-        var result = "";
-        for (var i = 0; i < separated.length; i++) {
-            if (separated[i].charAt(0).match("[aeoiuAEOIU]")) {
-                changed = separated[i] + "ay";
-            } else {
-                var word = separated[i];
-                for (var j = 0; j < word.length; j++) {
-                    if (word[j].match("[aeoiuAEOIU]")) {
-                        var changed = word.substring(j) + word.substring(0, j) + "ay";
-                        break;
-                    }
-    
-                }
-            }
-            result += changed + " ";
-    
-        }
-        document.getElementById("textarea").value = result;
-    
-    }
-function overfive() {
-        var words = document.getElementById("textarea").value;
-        var a = words.split(/\s+/);
-        var result = "";
-        for (let i = 0; i < a.length; i++) {
-            if (a[i].length >= 5) {
-                a[i] = "Malkovich";
-            }
-            result += a[i] + " ";
-        }
-        document.getElementById("textarea").value = result;
-    }
-
