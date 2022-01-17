@@ -21,6 +21,7 @@ function mynewStyle(){
         } else {
             document.getElementById("textarea").style.fontStyle="normal";
             document.getElementById("textarea").innerHTML="Tap your text here...";
+            document.getElementById("textarea").style.color="black";
             document.body.style.backgroundImage = "";
     
         }
