@@ -14,10 +14,13 @@ function enlargeText(){
 function mynewStyle(){
         if (document.getElementById("bling").checked == true) {
             document.body.style.backgroundImage="url('./dollar.jpg')"; 
+            document.getElementById("textarea").innerHTML="Welcome";
+            document.getElementById("textarea").style.color="blue";
             document.getElementById("textarea").style.fontStyle="Italic";
     
         } else {
             document.getElementById("textarea").style.fontStyle="normal";
+            document.getElementById("textarea").innerHTML="Tap your text here...";
             document.body.style.backgroundImage = "";
     
         }
