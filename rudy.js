@@ -1,5 +1,5 @@
 
-var rudyTimer= (function(){
+ var rudyTimer = (function(){
   timer = null; // stores ID of interval timer 
   function delayMsg2() {
      if (timer === null) {
@@ -7,15 +7,22 @@ var rudyTimer= (function(){
      } else {
           clearInterval(timer); 
           timer = null;
-      }  }
+        }  
+      }
   function rudy() { // called each time the timer goes off
-      document.getElementById("output").innerHTML += " Rudy!";
+      document.getElementById("demo").innerHTML+="Rudy!";
     }
 
- return {
-            delayMessage: function(){
-                   delayMsg2();
-              }
-      }
-}());
+            //delayMessage: function(){//
+            return function(){
+                      delayMsg2();
+                 }
+                
+            
+})();
+
+
+
+
+
 
