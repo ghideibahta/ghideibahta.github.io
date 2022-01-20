@@ -69,7 +69,7 @@ pre{
 }
 /*Unordered list with images as bullets*/
 ul{
-    list-style-image: url("WAP all projects/Robel921.github.io/w1d2_recepi/recipeImages/pie_bullet.png");
+    list-style-image: url("./pie_bullet.png");
 }
 /*home and search links style*/
 .links{
