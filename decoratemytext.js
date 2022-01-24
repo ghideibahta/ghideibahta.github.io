@@ -13,7 +13,7 @@ function enlargeText(){
 }
 function mynewStyle(){
         if (document.getElementById("bling").checked == true) {
-            document.body.style.backgroundImage="url('./dollar.jpg')"; 
+            document.body.style.backgroundImage="url('images/dollar.jpg')"; 
             document.getElementById("textarea").innerHTML="Welcome";
             document.getElementById("textarea").style.color="blue";
             document.getElementById("textarea").style.fontStyle="Italic";
