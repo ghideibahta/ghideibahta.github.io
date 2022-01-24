@@ -38,7 +38,10 @@ $(document).ready(function () {
   
   function winAction(){
     $("#status").text("You Win! :)");
+    $("#status").fadeOut(200);
+    $("#status").fadeIn(200);
     $("div .boundary").unbind("mouseover");
     $("#maze").unbind("mouseleave");
-    
+    setInterval(winAction,2000);
   }
+  
