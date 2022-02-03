@@ -1,0 +1,15 @@
+{
+  "name": "lab9-numquiz",
+  "version": "1.0.0",
+  "description": "How Number quiz works:",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

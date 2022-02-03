@@ -1,0 +1,3 @@
+const getName = () => {
+    return 'Jim';
+};

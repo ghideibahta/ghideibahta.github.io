@@ -1,0 +1,3 @@
+const getLocation = () => {
+    return 'Munich';
+}

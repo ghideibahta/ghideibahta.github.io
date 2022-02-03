@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link href="calculator.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   
+    <h1> Calculator</h1>
+    <p> Enter Two numbers </p>
+     
+    <form action="http://localhost:9000/calculator.js" method='get'>
+     
+        <label for = "First"> First <input type = "text" name= "first" /> </label><br><br>
+        <label for = "Second" > Second <input type = "text"  name = "second" /></label> <br><br>
+        <div>
+            <label for="operation">Operation</label>
+            <select name = "operator" id="operation">
+                <option value="add" >add</option>
+                <option value="subtract" >subtract</option>
+                <option value="multiply" >multiply</option>
+                <option value="divide" >divide</option>
+            </select>
+        </div>
+       <br><input type= "submit" id="submit" value="result"/> 
+
+    
+
+    </form> 
+    
+</body>
+</html>
